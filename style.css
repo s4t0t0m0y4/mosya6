@@ -16,18 +16,20 @@ img {
 
 body {
     font-family: "Noto Serif JP";
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
     text-orientation: upright;
+    background-color: #e6e2d7;
 }
 
 header {
     background-image: url(img/mainvisual-pc.jpg);
     background-size: cover;
     width: 100%;
-    height: 600px;
-    position: fixed;
+    height: 1200px;
+    position: relative;
     top: 0;
     right: 0;
+    writing-mode: vertical-rl;
 }
 
 h1 {
@@ -50,8 +52,8 @@ nav a {
 
 .btn {
     position: fixed;
-    bottom: 0;
-    left: 0;
+    bottom: 30px;
+    left: 40px;
     width: 68px;
     height: 252px;
     background: rgba(255, 255, 255, 0.2);
@@ -61,13 +63,32 @@ nav a {
     color: #fff;
     display: block;
     border: 1px solid #ccc;
-    padding: 30px 18px;
+    text-align: center;
+    padding: 14px;
+    margin: 8px;
 }
 
 .btn a:hover {
     opacity: 0.7;
 }
 
+main {
+    writing-mode: vertical-rl;
+}
+
+.news {
+    width: 1024px;
+}
+
+.en {
+    font-size: 14px;
+    color: #000;
+}
+
+.ja {
+    font-size: 36px;
+    color: #000;
+}
 
 /* responsive */
 @media (max-width: 768px) {
