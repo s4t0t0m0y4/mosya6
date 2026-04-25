@@ -133,7 +133,6 @@ dd {
 
 .create .title {
     display: flex;
-
 }
 
 .create .ja {
@@ -154,7 +153,7 @@ dd {
 
 .img1 {
     width: 639px;
-    padding: 100px 0 0 0;
+    padding: 100px 20px 0 0;
     position: relative;
 }
 
@@ -171,6 +170,92 @@ dd {
     position: absolute;
     bottom: -30px;
     left: -20px;
+}
+
+.science {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 180px;
+}
+
+.science .title {
+    display: flex;
+}
+
+.science .ja {
+    font-size: 36px;
+    font-weight: normal;
+    color: #000;
+    display: block;
+    letter-spacing: 1.6px;
+}
+
+.science .en {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    display: block;
+    padding: 18px 14px 0 0;
+}
+
+.img2 {
+    width: 639px;
+    padding: 100px 0 0 20px;
+    position: relative;
+}
+
+.txt2 {
+    color: #fff;
+    background-color:rgba(149, 42, 38, 0.6);
+    width: 358px;
+    height: 146px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.img2 .txt2 {
+    position: absolute;
+    bottom: -30px;
+    right: -20px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+    vertical-align: bottom;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    writing-mode: vertical-rl;
+    width: 100%;
+    display: flex;
+    padding: 80px 80px 30px 30px;
+}
+
+.inner {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 40px;
+}
+
+.inner nav li {
+    margin-top: 0;
+}
+
+.inner p {
+    font-size: 14px;
+}
+
+.copy {
+    writing-mode: horizontal-tb;
+    font-size: 10px;
+    text-align: center;
 }
 
 /* responsive */
